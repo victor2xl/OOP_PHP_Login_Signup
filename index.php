@@ -59,7 +59,7 @@ Author URL: http://w3layouts.com
                     if (isset($_SESSION["usersid"])){
                     ?>
                     <p class="text-center mt-4">Welcome onboard &nbsp;<span><a href="#"><?php echo $_SESSION["usersuid"];?></p><br/>
-                    <p class="text-center mt-3">&nbsp; Your default email is <?php echo $_SESSION["usersemail"];?></a><span><br/><a href="includes/logout.inc.php">Logout here</a></span></p>
+                    <p class="text-center mt-3">&nbsp; Your default email is <?php echo $_SESSION["usersemail"];?></a></p><br/><p class="text-center mt-4"><a href="includes/logout.inc.php">Logout here</a></p>
                     <?php
                     }
                     else{
